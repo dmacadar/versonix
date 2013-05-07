@@ -248,11 +248,6 @@ $app_name = idx($app_info, 'name', '');
       <?php } ?>
     </header>
 
-    <section id="get-started">
-      <p>Welcome to your Facebook app, running on <span>heroku</span>!</p>
-      <a href="https://devcenter.heroku.com/articles/facebook" target="_top" class="button">Learn How to Edit This App</a>
-    </section>
-
     <?php
       if ($user_id) {
     ?>
@@ -349,11 +344,8 @@ $app_name = idx($app_info, 'name', '');
       </div>
     </section>
 
-    <?php
-      }
-    ?>
 
-    <section id="guides" class="clearfix">
+    <!--section id="guides" class="clearfix">
       <h1>Learn More About Heroku &amp; Facebook Apps</h1>
       <ul>
         <li>
@@ -379,6 +371,13 @@ $app_name = idx($app_info, 'name', '');
           <p>Let users find and connect to their friends in mobile apps and games.</p>
         </li>
       </ul>
-    </section>
+    </section-->
+
+<section id="guides" class="clearfix"> This is a test app</section>
+
+<?php
+  }
+?>
+
   </body>
 </html>
